@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeWudaya</title>
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+    
+    <div class="container">
+        <section class="section-3" id="section-3">
+            <h1 class="section-heading section-3-heading">Choose your Tech Field To Learn</h1>
+            <div class="projects-wrapper center">
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Artificial Intelligence</h2>
+                        <h4 class="project-technologies">ML / DL </h4>
+                    </div>
+                    <img src="{% static 'ml.jpg' %}" class="project-img" />
+                    <a href="mlroad" class="project-link" target="_blank">Explore RoadMap</a>
+
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Web Devlopment</h2>
+                        <h4 class="project-technologies">Frontend / Backend</h4>
+                    </div>
+                    <img src="{% static 'project-3.jpg' %}" class="project-img" />
+                    <a href="webroad" class="project-link" target="_blank">Explore RoadMap</a>
+                </div>
+                <div class="project">
+                    <div class="project-text">
+                        <h2 class="project-name">Android</h2>
+                        <h4 class="project-technologies">HTML / CSS / JS</h4>
+                    </div>
+                    <img src="{% static 'app.jpeg' %}" class="project-img" />
+                    <a href="androad" class="project-link" target="_blank">Explore RoadMap</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
