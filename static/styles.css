@@ -55,7 +55,7 @@ html {
 .green-bg {
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #3ab19b, #4cbf91);
+  background: linear-gradient(to right, #4163ba, #444dae);
   position: absolute;
   top: 0;
   left: 0;
@@ -103,7 +103,7 @@ html {
 
 .signup-form h1 {
   font-size: 4rem;
-  color: #3aaf9f;
+  color: #3b42ca;
 }
 
 .social-media {
