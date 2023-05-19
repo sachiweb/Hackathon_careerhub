@@ -96,22 +96,22 @@ def androad(request):
 #     return render(request,"signup.html")
 
 
-def signin(request):
-    if request.method == 'POST':
-        user_name=request.POST['uname']
-        user_pass=request.POST['password']
-        user=authenticate(username=user_name,password=user_pass)
-        print(user)
-        if user is not None:
-            login(request,user)
-            fname=user.first_name
-            messages.success(request,'congrates')
-            return render(request,"app.html",{'fname':fname})
-            # return render(request,"app.html",{'yname':yname})
-        else:
-            messages.error(request,'bad request')
-            return redirect('signin')
-    return render(request,"signin.html")
+# def signin(request):
+#     if request.method == 'POST':
+#         user_name=request.POST['uname']
+#         user_pass=request.POST['password']
+#         user=authenticate(username=user_name,password=user_pass)
+#         print(user)
+#         if user is not None:
+#             login(request,user)
+#             fname=user.first_name
+#             messages.success(request,'congrates')
+#             return render(request,"app.html",{'fname':fname})
+#             # return render(request,"app.html",{'yname':yname})
+#         else:
+#             messages.error(request,'bad request')
+#             return redirect('signin')
+#     return render(request,"signin.html")
 
 
 #def signout(request):

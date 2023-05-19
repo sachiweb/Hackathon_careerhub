@@ -50,7 +50,7 @@
     }
 
     .custom_nav-container .nav_search-btn {
-        background-image: url(../images/search-icon-mobile.png);
+        background-image: url(./search-icon-mobile.png);
         background-position: center;
     }
 }
